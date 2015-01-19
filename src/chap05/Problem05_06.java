@@ -2,6 +2,11 @@ package chap05;
 
 /**
  * Created by yaodh on 2015/1/19.
+ * <p/>
+ * Problem 5.6 String and Integer Conversions
+ * Implement string/integer inter-conversion functions.
+ * Use the following signatures:
+ * String intToString(int x) and int stringToInt(String s).
  */
 public class Problem05_06 {
     String intToString(int x) {
@@ -32,7 +37,7 @@ public class Problem05_06 {
         }
         int ans = 0;
         for (int i = start; i < str.length(); i++) {
-            if(!Character.isDigit(str.charAt(i))) {
+            if (!Character.isDigit(str.charAt(i))) {
                 throw new IllegalArgumentException("argument str is not an integer");
             }
             ans = ans * 10 + (str.charAt(i) - '0') * negative;

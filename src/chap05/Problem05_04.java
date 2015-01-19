@@ -2,6 +2,10 @@ package chap05;
 
 /**
  * Created by yaodh on 2015/1/18.
+ * <p/>
+ * Problem 5.4
+ * Suppose x in Set_k, and k is not 0 or 64.
+ * How would you compute y in Set_k - x, such that |x-y| is minimum?
  */
 public class Problem05_04 {
     long closestIntSameBits(long x) {

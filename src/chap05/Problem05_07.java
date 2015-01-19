@@ -2,6 +2,12 @@ package chap05;
 
 /**
  * Created by yaodh on 2015/1/19.
+ *
+ * Problem 5.7 Base Conversion
+ * Write a function that performs base conversion. Specifically, the input is an integer based b1,
+ * a string s, representing an integer x in base b1, and another integer base b2.
+ * The output is the string representing the integer x in base b2.
+ * Assume 2<=b1,b2<=16. Use 'A' to represent 10, 'B' for 11, ..., and 'F' for 15.
  */
 public class Problem05_07 {
     String convertBase(String str, int baseSource, int baseTarget) {

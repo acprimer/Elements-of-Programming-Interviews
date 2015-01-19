@@ -2,11 +2,15 @@ package chap05;
 
 /**
  * Created by yaodh on 2015/1/18.
+ * <p/>
+ * Problem 5.3
+ * Write a function that takes a 64-bit integer x and returns a 64-bit integer consisting of
+ * the bit of x in reverse order.
  */
 public class Problem05_03 {
     long reverseBits(long x) {
-        for(int i=0;i<32;i++) {
-            x = swapBits(x, i, 63-i);
+        for (int i = 0; i < 32; i++) {
+            x = swapBits(x, i, 63 - i);
         }
         return x;
     }
@@ -20,6 +24,6 @@ public class Problem05_03 {
 
     public static void main(String[] args) {
         long ans = new Problem05_03().reverseBits(7L);
-        System.out.printf("%x\n",ans);
+        System.out.printf("%x\n", ans);
     }
 }
