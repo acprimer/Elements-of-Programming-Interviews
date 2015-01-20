@@ -2,6 +2,12 @@ package chap05;
 
 /**
  * Created by yao on 2015/1/19.
+ *
+ * Problem 5.13
+ * Write a function that multiplies two unsigned positive integers.
+ * The only operators you are allowed to use are assignment and the bitwise operators,
+ * i.e.,>>,<<,|,&,~,^.(In particular, you cannot use increment or decrement.)
+ * You may use loops, conditionals and functions that you write yourself, other functions are allowed.
  */
 public class Problem05_13 {
     int multiply(int x, int y) {
