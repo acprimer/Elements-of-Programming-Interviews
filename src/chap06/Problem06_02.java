@@ -2,6 +2,11 @@ package chap06;
 
 /**
  * Created by yaodh on 2015/1/20.
+ * <p/>
+ * Problem 6.2
+ * Design a deterministic scheme by which reads and writes to an uninitialized array
+ * can by made in O(1) time. You may use O(n) additional storage, reads to uninitialized
+ * entry should return false.
  */
 public class Problem06_02 {
     class LazyArray {
